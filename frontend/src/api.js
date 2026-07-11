@@ -1,2 +1,1 @@
-// one shared constant for the backend URL, used by every page
-export const API = 'http://localhost:3005'
+export const API = "https://society-manager-5.onrender.com";
