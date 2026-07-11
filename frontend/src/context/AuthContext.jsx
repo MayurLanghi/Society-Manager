@@ -15,7 +15,7 @@ export function AuthProvider({ children }) {
     axios.post(`${API}/auth/login`,{email,password})
     .then(res=>{
       if(typeof res.data === "string"){
-        onError(res.data) // server sent back an error message as plain text
+        onError(res.data) 
         return
       }
       localStorage.setItem('user',JSON.stringify(res.data))

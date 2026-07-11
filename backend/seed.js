@@ -1,4 +1,3 @@
-// Run this once with "npm run seed" to create your first admin account.
 require('dotenv').config()
 const mongoose = require('mongoose')
 const bcrypt = require('bcryptjs')

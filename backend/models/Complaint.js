@@ -6,7 +6,7 @@ const Complaint = mongoose.model('complaint', {
     category: { type: String, default: "other" },
     flatNumber: String,
     raisedById: String,
-    status: { type: String, default: "open" } // open, in_progress, resolved
+    status: { type: String, default: "open" } 
 })
 
 module.exports = Complaint

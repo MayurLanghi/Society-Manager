@@ -5,7 +5,7 @@ require('dotenv').config()
 const connectDB = require('./config/db')
 const PORT = process.env.PORT || 3005
 
-app.use(express.json())   //Middleware
+app.use(express.json())  
 app.use(cors())
 
 connectDB()

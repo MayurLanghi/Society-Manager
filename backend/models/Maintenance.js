@@ -7,7 +7,7 @@ const Maintenance = mongoose.model('maintenance', {
     year: Number,
     amount: Number,
     dueDate: Date,
-    status: { type: String, default: "pending" } // pending, paid
+    status: { type: String, default: "pending" }
 })
 
 module.exports = Maintenance

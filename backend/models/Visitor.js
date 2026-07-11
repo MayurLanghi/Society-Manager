@@ -7,7 +7,7 @@ const Visitor = mongoose.model('visitor', {
     flatToVisit: String,
     checkInTime: { type: Date, default: Date.now },
     checkOutTime: Date,
-    status: { type: String, default: "pending" } // pending, approved, rejected, checked_out
+    status: { type: String, default: "pending" } 
 })
 
 module.exports = Visitor

@@ -1,7 +1,5 @@
 const jwt = require('jsonwebtoken')
 
-// Checks if the request has a valid login token. Attaches userId, userRole and
-// flatNumber to the request so controllers below can use them.
 function checkLogin(req, res, next) {
     const authHeader = req.headers.authorization
     if (!authHeader) {

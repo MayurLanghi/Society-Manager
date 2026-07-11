@@ -5,7 +5,7 @@ const User = mongoose.model('user', {
     email: String,
     password: String,
     phone: String,
-    role: { type: String, default: "resident" }, // admin, resident, guard
+    role: { type: String, default: "resident" }, 
     flatNumber: String,
     isApproved: { type: Boolean, default: false },
     isActive: { type: Boolean, default: true }
